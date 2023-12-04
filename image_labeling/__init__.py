@@ -1,1 +1,1 @@
-from labelingtool.labelingtool import LabelingTool
+from image_labeling.labelling_widget import LabelingWidget
