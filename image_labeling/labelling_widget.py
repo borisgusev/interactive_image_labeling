@@ -115,7 +115,7 @@ class LabelingWidget:
     def _init_label_buttons(self):
         class_buttons = []
         for label in self._labels:
-            label_button = Button(description=label)
+            label_button = Button(description=str(label))
             label_button.on_click(self._select_label)
             class_buttons.append(label_button)
         return class_buttons
