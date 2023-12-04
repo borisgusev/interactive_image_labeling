@@ -1,1 +1,0 @@
-from image_labeling.labelling_widget import LabelingWidget
